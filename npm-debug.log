@@ -1,0 +1,1643 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose url raw easyrtc/latest
+6 verbose url resolving [ 'https://registry.npmjs.org/', './easyrtc/latest' ]
+7 verbose url resolved https://registry.npmjs.org/easyrtc/latest
+8 info trying registry request attempt 1 at 21:44:30
+9 verbose etag "2NXJWKA9LMQX8AB1XMSEKB9IL"
+10 http GET https://registry.npmjs.org/easyrtc/latest
+11 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+12 verbose url raw express/latest
+13 verbose url resolving [ 'https://registry.npmjs.org/', './express/latest' ]
+14 verbose url resolved https://registry.npmjs.org/express/latest
+15 info trying registry request attempt 1 at 21:44:30
+16 verbose etag "D2YTT48P92TKLGK0EG6KX3T28"
+17 http GET https://registry.npmjs.org/express/latest
+18 verbose url raw socket.io/latest
+19 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io/latest' ]
+20 verbose url resolved https://registry.npmjs.org/socket.io/latest
+21 info trying registry request attempt 1 at 21:44:30
+22 verbose etag "DZGLIG3KFWERSCL9KXRUUML0D"
+23 http GET https://registry.npmjs.org/socket.io/latest
+24 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+26 info trying registry request attempt 2 at 21:44:40
+27 verbose etag "2NXJWKA9LMQX8AB1XMSEKB9IL"
+28 http GET https://registry.npmjs.org/easyrtc/latest
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+30 info trying registry request attempt 2 at 21:44:40
+31 verbose etag "D2YTT48P92TKLGK0EG6KX3T28"
+32 http GET https://registry.npmjs.org/express/latest
+33 info trying registry request attempt 2 at 21:44:40
+34 verbose etag "DZGLIG3KFWERSCL9KXRUUML0D"
+35 http GET https://registry.npmjs.org/socket.io/latest
+36 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+37 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+38 info trying registry request attempt 3 at 21:45:40
+39 verbose etag "2NXJWKA9LMQX8AB1XMSEKB9IL"
+40 http GET https://registry.npmjs.org/easyrtc/latest
+41 silly registry.get cb [ 304, undefined ]
+42 verbose etag easyrtc/latest from cache
+43 info trying registry request attempt 3 at 21:45:40
+44 verbose etag "D2YTT48P92TKLGK0EG6KX3T28"
+45 http GET https://registry.npmjs.org/express/latest
+46 silly registry.get cb [ 304, undefined ]
+47 verbose etag express/latest from cache
+48 verbose cache add [ 'easyrtc', '*' ]
+49 verbose cache add name="easyrtc" spec="*" args=["easyrtc","*"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '*',
+50 verbose parsed url   path: '*',
+50 verbose parsed url   href: '*' }
+51 verbose addNamed [ 'easyrtc', '*' ]
+52 verbose addNamed [ null, '*' ]
+53 info trying registry request attempt 3 at 21:45:40
+54 verbose etag "DZGLIG3KFWERSCL9KXRUUML0D"
+55 http GET https://registry.npmjs.org/socket.io/latest
+56 silly lockFile 351e2561-easyrtc easyrtc@*
+57 verbose lock easyrtc@* C:\Users\TOSHIBA\AppData\Roaming\npm-cache\351e2561-easyrtc.lock
+58 silly registry.get cb [ 304, undefined ]
+59 verbose etag socket.io/latest from cache
+60 verbose cache add [ 'express', '*' ]
+61 verbose cache add name="express" spec="*" args=["express","*"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '*',
+62 verbose parsed url   path: '*',
+62 verbose parsed url   href: '*' }
+63 verbose addNamed [ 'express', '*' ]
+64 verbose addNamed [ null, '*' ]
+65 silly lockFile 8ad1ad64-express express@*
+66 verbose lock express@* C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8ad1ad64-express.lock
+67 silly addNameRange { name: 'easyrtc', range: '*', hasData: false }
+68 silly addNameRange { name: 'express', range: '*', hasData: false }
+69 verbose cache add [ 'socket.io', '*' ]
+70 verbose cache add name="socket.io" spec="*" args=["socket.io","*"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '*',
+71 verbose parsed url   path: '*',
+71 verbose parsed url   href: '*' }
+72 verbose addNamed [ 'socket.io', '*' ]
+73 verbose addNamed [ null, '*' ]
+74 silly lockFile 141fbf03-socket-io socket.io@*
+75 verbose lock socket.io@* C:\Users\TOSHIBA\AppData\Roaming\npm-cache\141fbf03-socket-io.lock
+76 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+77 verbose url raw easyrtc
+78 verbose url resolving [ 'https://registry.npmjs.org/', './easyrtc' ]
+79 verbose url resolved https://registry.npmjs.org/easyrtc
+80 info trying registry request attempt 1 at 21:45:40
+81 verbose etag "2NXJWKA9LMQX8AB1XMSEKB9IL"
+82 http GET https://registry.npmjs.org/easyrtc
+83 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+84 verbose url raw express
+85 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+86 verbose url resolved https://registry.npmjs.org/express
+87 info trying registry request attempt 1 at 21:45:41
+88 verbose etag "D2YTT48P92TKLGK0EG6KX3T28"
+89 http GET https://registry.npmjs.org/express
+90 verbose url raw socket.io
+91 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+92 verbose url resolved https://registry.npmjs.org/socket.io
+93 info trying registry request attempt 1 at 21:45:41
+94 verbose etag "DZGLIG3KFWERSCL9KXRUUML0D"
+95 http GET https://registry.npmjs.org/socket.io
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+97 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+98 info trying registry request attempt 2 at 21:45:50
+99 verbose etag "2NXJWKA9LMQX8AB1XMSEKB9IL"
+100 http GET https://registry.npmjs.org/easyrtc
+101 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+102 info trying registry request attempt 2 at 21:45:51
+103 verbose etag "D2YTT48P92TKLGK0EG6KX3T28"
+104 http GET https://registry.npmjs.org/express
+105 info trying registry request attempt 2 at 21:45:51
+106 verbose etag "DZGLIG3KFWERSCL9KXRUUML0D"
+107 http GET https://registry.npmjs.org/socket.io
+108 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+109 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+110 info trying registry request attempt 3 at 21:46:50
+111 verbose etag "2NXJWKA9LMQX8AB1XMSEKB9IL"
+112 http GET https://registry.npmjs.org/easyrtc
+113 silly registry.get cb [ 304, undefined ]
+114 verbose etag easyrtc from cache
+115 silly addNameRange number 2 { name: 'easyrtc', range: '*', hasData: true }
+116 silly addNameRange versions [ 'easyrtc',
+116 silly addNameRange   [ '0.5.0',
+116 silly addNameRange     '0.6.0',
+116 silly addNameRange     '0.7.0',
+116 silly addNameRange     '0.8.0',
+116 silly addNameRange     '0.9.0',
+116 silly addNameRange     '0.10.2-alpha',
+116 silly addNameRange     '0.10.3-alpha',
+116 silly addNameRange     '0.10.4-alpha',
+116 silly addNameRange     '1.0.0-beta',
+116 silly addNameRange     '1.0.1-beta',
+116 silly addNameRange     '1.0.2-beta',
+116 silly addNameRange     '1.0.5-beta',
+116 silly addNameRange     '1.0.6-beta',
+116 silly addNameRange     '1.0.7',
+116 silly addNameRange     '1.0.8',
+116 silly addNameRange     '1.0.9',
+116 silly addNameRange     '1.0.10',
+116 silly addNameRange     '0.5.0-a' ] ]
+117 verbose addNamed [ 'easyrtc', '1.0.10' ]
+118 verbose addNamed [ '1.0.10', '1.0.10' ]
+119 silly lockFile 5c9e5967-easyrtc-1-0-10 easyrtc@1.0.10
+120 verbose lock easyrtc@1.0.10 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\5c9e5967-easyrtc-1-0-10.lock
+121 info trying registry request attempt 3 at 21:46:51
+122 verbose etag "D2YTT48P92TKLGK0EG6KX3T28"
+123 http GET https://registry.npmjs.org/express
+124 info trying registry request attempt 3 at 21:46:51
+125 verbose etag "DZGLIG3KFWERSCL9KXRUUML0D"
+126 http GET https://registry.npmjs.org/socket.io
+127 silly registry.get cb [ 304, undefined ]
+128 verbose etag express from cache
+129 silly registry.get cb [ 304, undefined ]
+130 verbose etag socket.io from cache
+131 silly lockFile 5c9e5967-easyrtc-1-0-10 easyrtc@1.0.10
+132 silly lockFile 5c9e5967-easyrtc-1-0-10 easyrtc@1.0.10
+133 silly lockFile 351e2561-easyrtc easyrtc@*
+134 silly lockFile 351e2561-easyrtc easyrtc@*
+135 silly addNameRange number 2 { name: 'socket.io', range: '*', hasData: true }
+136 silly addNameRange versions [ 'socket.io',
+136 silly addNameRange   [ '0.3.8',
+136 silly addNameRange     '0.4.0',
+136 silly addNameRange     '0.4.1',
+136 silly addNameRange     '0.5.1',
+136 silly addNameRange     '0.5.3',
+136 silly addNameRange     '0.6.0',
+136 silly addNameRange     '0.6.1',
+136 silly addNameRange     '0.6.3',
+136 silly addNameRange     '0.6.4',
+136 silly addNameRange     '0.6.5',
+136 silly addNameRange     '0.6.6',
+136 silly addNameRange     '0.6.7',
+136 silly addNameRange     '0.6.8',
+136 silly addNameRange     '0.6.9',
+136 silly addNameRange     '0.6.10',
+136 silly addNameRange     '0.6.11',
+136 silly addNameRange     '0.6.12',
+136 silly addNameRange     '0.6.14',
+136 silly addNameRange     '0.6.15',
+136 silly addNameRange     '0.6.16',
+136 silly addNameRange     '0.6.17',
+136 silly addNameRange     '0.6.18',
+136 silly addNameRange     '0.7.0',
+136 silly addNameRange     '0.7.1',
+136 silly addNameRange     '0.7.2',
+136 silly addNameRange     '0.7.3',
+136 silly addNameRange     '0.7.4',
+136 silly addNameRange     '0.7.5',
+136 silly addNameRange     '0.7.6',
+136 silly addNameRange     '0.7.7',
+136 silly addNameRange     '0.7.8',
+136 silly addNameRange     '0.7.9',
+136 silly addNameRange     '0.7.10',
+136 silly addNameRange     '0.7.11',
+136 silly addNameRange     '0.8.0',
+136 silly addNameRange     '0.8.1',
+136 silly addNameRange     '0.8.2',
+136 silly addNameRange     '0.8.3',
+136 silly addNameRange     '0.8.4',
+136 silly addNameRange     '0.8.5',
+136 silly addNameRange     '0.8.6',
+136 silly addNameRange     '0.8.7',
+136 silly addNameRange     '0.9.0',
+136 silly addNameRange     '0.9.1',
+136 silly addNameRange     '0.9.1-1',
+136 silly addNameRange     '0.9.2',
+136 silly addNameRange     '0.9.3',
+136 silly addNameRange     '0.9.4',
+136 silly addNameRange     '0.9.5',
+136 silly addNameRange     '0.9.6',
+136 silly addNameRange     '0.9.7',
+136 silly addNameRange     '0.9.8',
+136 silly addNameRange     '0.9.9',
+136 silly addNameRange     '0.9.10',
+136 silly addNameRange     '0.9.11',
+136 silly addNameRange     '0.9.12',
+136 silly addNameRange     '0.9.13',
+136 silly addNameRange     '0.9.14',
+136 silly addNameRange     '0.9.15',
+136 silly addNameRange     '0.9.16',
+136 silly addNameRange     '1.0.0-pre',
+136 silly addNameRange     '1.0.0-pre2' ] ]
+137 verbose addNamed [ 'socket.io', '0.9.16' ]
+138 verbose addNamed [ '0.9.16', '0.9.16' ]
+139 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+140 verbose lock socket.io@0.9.16 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\a7acce22-socket-io-0-9-16.lock
+141 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+142 silly addNameRange versions [ 'express',
+142 silly addNameRange   [ '0.14.0',
+142 silly addNameRange     '0.14.1',
+142 silly addNameRange     '1.0.0',
+142 silly addNameRange     '1.0.1',
+142 silly addNameRange     '1.0.2',
+142 silly addNameRange     '1.0.3',
+142 silly addNameRange     '1.0.4',
+142 silly addNameRange     '1.0.5',
+142 silly addNameRange     '1.0.6',
+142 silly addNameRange     '1.0.7',
+142 silly addNameRange     '1.0.8',
+142 silly addNameRange     '2.0.0',
+142 silly addNameRange     '2.1.0',
+142 silly addNameRange     '2.1.1',
+142 silly addNameRange     '2.2.0',
+142 silly addNameRange     '2.2.1',
+142 silly addNameRange     '2.2.2',
+142 silly addNameRange     '2.3.0',
+142 silly addNameRange     '2.3.1',
+142 silly addNameRange     '2.3.2',
+142 silly addNameRange     '2.3.3',
+142 silly addNameRange     '2.3.4',
+142 silly addNameRange     '2.3.5',
+142 silly addNameRange     '2.3.6',
+142 silly addNameRange     '2.3.7',
+142 silly addNameRange     '2.3.8',
+142 silly addNameRange     '2.3.9',
+142 silly addNameRange     '2.3.10',
+142 silly addNameRange     '2.3.11',
+142 silly addNameRange     '2.3.12',
+142 silly addNameRange     '2.4.0',
+142 silly addNameRange     '2.4.1',
+142 silly addNameRange     '2.4.2',
+142 silly addNameRange     '2.4.3',
+142 silly addNameRange     '2.4.4',
+142 silly addNameRange     '2.4.5',
+142 silly addNameRange     '2.4.6',
+142 silly addNameRange     '2.4.7',
+142 silly addNameRange     '2.5.0',
+142 silly addNameRange     '2.5.1',
+142 silly addNameRange     '2.5.2',
+142 silly addNameRange     '2.5.3',
+142 silly addNameRange     '2.5.4',
+142 silly addNameRange     '2.5.5',
+142 silly addNameRange     '2.5.6',
+142 silly addNameRange     '2.5.7',
+142 silly addNameRange     '2.5.8',
+142 silly addNameRange     '2.5.9',
+142 silly addNameRange     '2.5.10',
+142 silly addNameRange     '2.5.11',
+142 silly addNameRange     '3.0.0',
+142 silly addNameRange     '3.0.1',
+142 silly addNameRange     '3.0.2',
+142 silly addNameRange     '3.0.3',
+142 silly addNameRange     '3.0.4',
+142 silly addNameRange     '3.0.5',
+142 silly addNameRange     '3.0.6',
+142 silly addNameRange     '3.1.0',
+142 silly addNameRange     '3.1.1',
+142 silly addNameRange     '3.1.2',
+142 silly addNameRange     '3.2.0',
+142 silly addNameRange     '3.2.1',
+142 silly addNameRange     '3.2.2',
+142 silly addNameRange     '3.2.3',
+142 silly addNameRange     '3.2.4',
+142 silly addNameRange     '3.2.5',
+142 silly addNameRange     '3.2.6',
+142 silly addNameRange     '3.3.0',
+142 silly addNameRange     '3.3.1',
+142 silly addNameRange     '3.3.2',
+142 silly addNameRange     '3.3.3',
+142 silly addNameRange     '3.3.4',
+142 silly addNameRange     '3.3.5',
+142 silly addNameRange     '3.3.6',
+142 silly addNameRange     '1.0.0-beta',
+142 silly addNameRange     '1.0.0-beta2',
+142 silly addNameRange     '1.0.0-rc',
+142 silly addNameRange     '1.0.0-rc2',
+142 silly addNameRange     '1.0.0-rc3',
+142 silly addNameRange     '1.0.0-rc4',
+142 silly addNameRange     '2.0.0-beta',
+142 silly addNameRange     '2.0.0-beta2',
+142 silly addNameRange     '2.0.0-beta3',
+142 silly addNameRange     '2.0.0-rc',
+142 silly addNameRange     '2.0.0-rc2',
+142 silly addNameRange     '2.0.0-rc3',
+142 silly addNameRange     '3.0.0-alpha1',
+142 silly addNameRange     '3.0.0-alpha2',
+142 silly addNameRange     '3.0.0-alpha3',
+142 silly addNameRange     '3.0.0-alpha4',
+142 silly addNameRange     '3.0.0-alpha5',
+142 silly addNameRange     '3.0.0-beta1',
+142 silly addNameRange     '3.0.0-beta2',
+142 silly addNameRange     '3.0.0-beta3',
+142 silly addNameRange     '3.0.0-beta4',
+142 silly addNameRange     '3.0.0-beta6',
+142 silly addNameRange     '3.0.0-beta7',
+142 silly addNameRange     '3.0.0-rc1',
+142 silly addNameRange     '3.0.0-rc2',
+142 silly addNameRange     '3.0.0-rc3',
+142 silly addNameRange     '3.0.0-rc4',
+142 silly addNameRange     '3.0.0-rc5',
+142 silly addNameRange     '3.3.7',
+142 silly addNameRange     '3.3.8',
+142 silly addNameRange     '3.4.0',
+142 silly addNameRange     '3.4.1',
+142 silly addNameRange     '3.4.2',
+142 silly addNameRange     '3.4.3',
+142 silly addNameRange     '3.4.4',
+142 silly addNameRange     '3.4.5',
+142 silly addNameRange     '3.4.6',
+142 silly addNameRange     '3.4.7',
+142 silly addNameRange     '3.4.8',
+142 silly addNameRange     '4.0.0-rc1',
+142 silly addNameRange     '4.0.0-rc2',
+142 silly addNameRange     '3.5.0',
+142 silly addNameRange     '4.0.0-rc3',
+142 silly addNameRange     '4.0.0-rc4',
+142 silly addNameRange     '3.5.1',
+142 silly addNameRange     '4.0.0',
+142 silly addNameRange     '3.5.2',
+142 silly addNameRange     '4.1.0',
+142 silly addNameRange     '4.1.1' ] ]
+143 verbose addNamed [ 'express', '4.1.1' ]
+144 verbose addNamed [ '4.1.1', '4.1.1' ]
+145 silly lockFile e8de92d7-express-4-1-1 express@4.1.1
+146 verbose lock express@4.1.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\e8de92d7-express-4-1-1.lock
+147 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+148 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+149 silly lockFile 141fbf03-socket-io socket.io@*
+150 silly lockFile 141fbf03-socket-io socket.io@*
+151 silly lockFile e8de92d7-express-4-1-1 express@4.1.1
+152 silly lockFile e8de92d7-express-4-1-1 express@4.1.1
+153 silly lockFile 8ad1ad64-express express@*
+154 silly lockFile 8ad1ad64-express express@*
+155 verbose url raw socket.io-client/latest
+156 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/latest' ]
+157 verbose url resolved https://registry.npmjs.org/socket.io-client/latest
+158 info trying registry request attempt 1 at 21:46:51
+159 verbose etag "5FADHYEYTDCKOINP1QAW9KEV3"
+160 http GET https://registry.npmjs.org/socket.io-client/latest
+161 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+162 verbose url raw policyfile/latest
+163 verbose url resolving [ 'https://registry.npmjs.org/', './policyfile/latest' ]
+164 verbose url resolved https://registry.npmjs.org/policyfile/latest
+165 info trying registry request attempt 1 at 21:46:51
+166 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+167 http GET https://registry.npmjs.org/policyfile/latest
+168 verbose url raw base64id/latest
+169 verbose url resolving [ 'https://registry.npmjs.org/', './base64id/latest' ]
+170 verbose url resolved https://registry.npmjs.org/base64id/latest
+171 info trying registry request attempt 1 at 21:46:51
+172 verbose etag "2K70S15UFRMACMOGV6YCD9UNZ"
+173 http GET https://registry.npmjs.org/base64id/latest
+174 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+175 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+176 verbose url raw redis/latest
+177 verbose url resolving [ 'https://registry.npmjs.org/', './redis/latest' ]
+178 verbose url resolved https://registry.npmjs.org/redis/latest
+179 info trying registry request attempt 1 at 21:46:51
+180 verbose etag "7D2R7PSF2BLDME2GF0K4T7E2I"
+181 http GET https://registry.npmjs.org/redis/latest
+182 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+183 info trying registry request attempt 2 at 21:47:01
+184 verbose etag "5FADHYEYTDCKOINP1QAW9KEV3"
+185 http GET https://registry.npmjs.org/socket.io-client/latest
+186 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+187 info trying registry request attempt 2 at 21:47:01
+188 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+189 http GET https://registry.npmjs.org/policyfile/latest
+190 info trying registry request attempt 2 at 21:47:01
+191 verbose etag "2K70S15UFRMACMOGV6YCD9UNZ"
+192 http GET https://registry.npmjs.org/base64id/latest
+193 info trying registry request attempt 2 at 21:47:01
+194 verbose etag "7D2R7PSF2BLDME2GF0K4T7E2I"
+195 http GET https://registry.npmjs.org/redis/latest
+196 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+197 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+198 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+199 info trying registry request attempt 3 at 21:48:01
+200 verbose etag "5FADHYEYTDCKOINP1QAW9KEV3"
+201 http GET https://registry.npmjs.org/socket.io-client/latest
+202 silly registry.get cb [ 304, undefined ]
+203 verbose etag socket.io-client/latest from cache
+204 verbose cache add [ 'socket.io-client', '0.9.16' ]
+205 verbose cache add name="socket.io-client" spec="0.9.16" args=["socket.io-client","0.9.16"]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: '0.9.16',
+206 verbose parsed url   path: '0.9.16',
+206 verbose parsed url   href: '0.9.16' }
+207 verbose addNamed [ 'socket.io-client', '0.9.16' ]
+208 verbose addNamed [ '0.9.16', '0.9.16' ]
+209 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+210 verbose lock socket.io-client@0.9.16 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\c81dc0af-socket-io-client-0-9-16.lock
+211 verbose url raw socket.io-client/0.9.16
+212 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/0.9.16' ]
+213 verbose url resolved https://registry.npmjs.org/socket.io-client/0.9.16
+214 info trying registry request attempt 1 at 21:48:01
+215 verbose etag "5FADHYEYTDCKOINP1QAW9KEV3"
+216 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+217 info trying registry request attempt 3 at 21:48:01
+218 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+219 http GET https://registry.npmjs.org/policyfile/latest
+220 info trying registry request attempt 3 at 21:48:01
+221 verbose etag "2K70S15UFRMACMOGV6YCD9UNZ"
+222 http GET https://registry.npmjs.org/base64id/latest
+223 info trying registry request attempt 3 at 21:48:01
+224 verbose etag "7D2R7PSF2BLDME2GF0K4T7E2I"
+225 http GET https://registry.npmjs.org/redis/latest
+226 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+227 silly registry.get cb [ 304, undefined ]
+228 verbose etag policyfile/latest from cache
+229 silly registry.get cb [ 304, undefined ]
+230 verbose etag base64id/latest from cache
+231 silly registry.get cb [ 304, undefined ]
+232 verbose etag redis/latest from cache
+233 verbose cache add [ 'policyfile', '0.0.4' ]
+234 verbose cache add name="policyfile" spec="0.0.4" args=["policyfile","0.0.4"]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: '0.0.4',
+235 verbose parsed url   path: '0.0.4',
+235 verbose parsed url   href: '0.0.4' }
+236 verbose addNamed [ 'policyfile', '0.0.4' ]
+237 verbose addNamed [ '0.0.4', '0.0.4' ]
+238 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+239 verbose lock policyfile@0.0.4 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8b99131a-policyfile-0-0-4.lock
+240 verbose cache add [ 'base64id', '0.1.0' ]
+241 verbose cache add name="base64id" spec="0.1.0" args=["base64id","0.1.0"]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: '0.1.0',
+242 verbose parsed url   path: '0.1.0',
+242 verbose parsed url   href: '0.1.0' }
+243 verbose addNamed [ 'base64id', '0.1.0' ]
+244 verbose addNamed [ '0.1.0', '0.1.0' ]
+245 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+246 verbose lock base64id@0.1.0 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\b2185bf4-base64id-0-1-0.lock
+247 verbose cache add [ 'redis', '0.7.3' ]
+248 verbose cache add name="redis" spec="0.7.3" args=["redis","0.7.3"]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: '0.7.3',
+249 verbose parsed url   path: '0.7.3',
+249 verbose parsed url   href: '0.7.3' }
+250 verbose addNamed [ 'redis', '0.7.3' ]
+251 verbose addNamed [ '0.7.3', '0.7.3' ]
+252 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+253 verbose lock redis@0.7.3 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\10399cfa-redis-0-7-3.lock
+254 verbose url raw policyfile/0.0.4
+255 verbose url resolving [ 'https://registry.npmjs.org/', './policyfile/0.0.4' ]
+256 verbose url resolved https://registry.npmjs.org/policyfile/0.0.4
+257 info trying registry request attempt 1 at 21:48:01
+258 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+259 http GET https://registry.npmjs.org/policyfile/0.0.4
+260 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+261 verbose url raw base64id/0.1.0
+262 verbose url resolving [ 'https://registry.npmjs.org/', './base64id/0.1.0' ]
+263 verbose url resolved https://registry.npmjs.org/base64id/0.1.0
+264 info trying registry request attempt 1 at 21:48:01
+265 verbose etag "2CCBJX0ZD0TPFRHRQCKME0FFP"
+266 http GET https://registry.npmjs.org/base64id/0.1.0
+267 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+268 verbose url raw redis/0.7.3
+269 verbose url resolving [ 'https://registry.npmjs.org/', './redis/0.7.3' ]
+270 verbose url resolved https://registry.npmjs.org/redis/0.7.3
+271 info trying registry request attempt 1 at 21:48:01
+272 verbose etag "OXSUAVWAA2MZVYMU2Q11EEOA"
+273 http GET https://registry.npmjs.org/redis/0.7.3
+274 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+275 info trying registry request attempt 2 at 21:48:11
+276 verbose etag "5FADHYEYTDCKOINP1QAW9KEV3"
+277 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+278 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+279 info trying registry request attempt 2 at 21:48:11
+280 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+281 http GET https://registry.npmjs.org/policyfile/0.0.4
+282 info trying registry request attempt 2 at 21:48:11
+283 verbose etag "2CCBJX0ZD0TPFRHRQCKME0FFP"
+284 http GET https://registry.npmjs.org/base64id/0.1.0
+285 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+286 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+287 info trying registry request attempt 2 at 21:48:11
+288 verbose etag "OXSUAVWAA2MZVYMU2Q11EEOA"
+289 http GET https://registry.npmjs.org/redis/0.7.3
+290 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+291 info trying registry request attempt 3 at 21:49:11
+292 verbose etag "5FADHYEYTDCKOINP1QAW9KEV3"
+293 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+294 silly registry.get cb [ 304, undefined ]
+295 verbose etag socket.io-client/0.9.16 from cache
+296 info trying registry request attempt 3 at 21:49:11
+297 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+298 http GET https://registry.npmjs.org/policyfile/0.0.4
+299 info trying registry request attempt 3 at 21:49:11
+300 verbose etag "2CCBJX0ZD0TPFRHRQCKME0FFP"
+301 http GET https://registry.npmjs.org/base64id/0.1.0
+302 silly registry.get cb [ 304, undefined ]
+303 verbose etag policyfile/0.0.4 from cache
+304 silly registry.get cb [ 304, undefined ]
+305 verbose etag base64id/0.1.0 from cache
+306 info trying registry request attempt 3 at 21:49:11
+307 verbose etag "OXSUAVWAA2MZVYMU2Q11EEOA"
+308 http GET https://registry.npmjs.org/redis/0.7.3
+309 silly registry.get cb [ 304, undefined ]
+310 verbose etag redis/0.7.3 from cache
+311 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+312 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+313 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+314 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+315 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+316 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+317 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+318 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+319 verbose url raw uglify-js/latest
+320 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js/latest' ]
+321 verbose url resolved https://registry.npmjs.org/uglify-js/latest
+322 info trying registry request attempt 1 at 21:49:11
+323 verbose etag "CA4VX0GBUP7VM6PG4AUVBUTD2"
+324 http GET https://registry.npmjs.org/uglify-js/latest
+325 verbose url raw ws/latest
+326 verbose url resolving [ 'https://registry.npmjs.org/', './ws/latest' ]
+327 verbose url resolved https://registry.npmjs.org/ws/latest
+328 info trying registry request attempt 1 at 21:49:11
+329 verbose etag "5BX2NEBI9QXZ9US8ZP834FMWD"
+330 http GET https://registry.npmjs.org/ws/latest
+331 verbose url raw active-x-obfuscator/latest
+332 verbose url resolving [ 'https://registry.npmjs.org/',
+332 verbose url resolving   './active-x-obfuscator/latest' ]
+333 verbose url resolved https://registry.npmjs.org/active-x-obfuscator/latest
+334 info trying registry request attempt 1 at 21:49:11
+335 verbose etag "DH613T7IVDI7O3N7IXBH1XP2N"
+336 http GET https://registry.npmjs.org/active-x-obfuscator/latest
+337 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+338 verbose url raw xmlhttprequest/latest
+339 verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest/latest' ]
+340 verbose url resolved https://registry.npmjs.org/xmlhttprequest/latest
+341 info trying registry request attempt 1 at 21:49:11
+342 verbose etag "20NODJ9PCQHH7ZHRF5868JVMB"
+343 http GET https://registry.npmjs.org/xmlhttprequest/latest
+344 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+345 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+346 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+347 info trying registry request attempt 2 at 21:49:21
+348 verbose etag "CA4VX0GBUP7VM6PG4AUVBUTD2"
+349 http GET https://registry.npmjs.org/uglify-js/latest
+350 info trying registry request attempt 2 at 21:49:21
+351 verbose etag "5BX2NEBI9QXZ9US8ZP834FMWD"
+352 http GET https://registry.npmjs.org/ws/latest
+353 info trying registry request attempt 2 at 21:49:21
+354 verbose etag "DH613T7IVDI7O3N7IXBH1XP2N"
+355 http GET https://registry.npmjs.org/active-x-obfuscator/latest
+356 info trying registry request attempt 2 at 21:49:21
+357 verbose etag "20NODJ9PCQHH7ZHRF5868JVMB"
+358 http GET https://registry.npmjs.org/xmlhttprequest/latest
+359 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+360 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+361 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+362 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+363 info trying registry request attempt 3 at 21:50:21
+364 verbose etag "CA4VX0GBUP7VM6PG4AUVBUTD2"
+365 http GET https://registry.npmjs.org/uglify-js/latest
+366 info trying registry request attempt 3 at 21:50:21
+367 verbose etag "5BX2NEBI9QXZ9US8ZP834FMWD"
+368 http GET https://registry.npmjs.org/ws/latest
+369 info trying registry request attempt 3 at 21:50:21
+370 verbose etag "DH613T7IVDI7O3N7IXBH1XP2N"
+371 http GET https://registry.npmjs.org/active-x-obfuscator/latest
+372 info trying registry request attempt 3 at 21:50:21
+373 verbose etag "20NODJ9PCQHH7ZHRF5868JVMB"
+374 http GET https://registry.npmjs.org/xmlhttprequest/latest
+375 silly registry.get cb [ 304, undefined ]
+376 verbose etag uglify-js/latest from cache
+377 silly registry.get cb [ 304, undefined ]
+378 verbose etag ws/latest from cache
+379 silly registry.get cb [ 304, undefined ]
+380 verbose etag active-x-obfuscator/latest from cache
+381 silly registry.get cb [ 304, undefined ]
+382 verbose etag xmlhttprequest/latest from cache
+383 verbose cache add [ 'uglify-js', '1.2.5' ]
+384 verbose cache add name="uglify-js" spec="1.2.5" args=["uglify-js","1.2.5"]
+385 verbose parsed url { protocol: null,
+385 verbose parsed url   slashes: null,
+385 verbose parsed url   auth: null,
+385 verbose parsed url   host: null,
+385 verbose parsed url   port: null,
+385 verbose parsed url   hostname: null,
+385 verbose parsed url   hash: null,
+385 verbose parsed url   search: null,
+385 verbose parsed url   query: null,
+385 verbose parsed url   pathname: '1.2.5',
+385 verbose parsed url   path: '1.2.5',
+385 verbose parsed url   href: '1.2.5' }
+386 verbose addNamed [ 'uglify-js', '1.2.5' ]
+387 verbose addNamed [ '1.2.5', '1.2.5' ]
+388 silly lockFile 7bec4d6c-uglify-js-1-2-5 uglify-js@1.2.5
+389 verbose lock uglify-js@1.2.5 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\7bec4d6c-uglify-js-1-2-5.lock
+390 verbose cache add [ 'ws', '0.4.x' ]
+391 verbose cache add name="ws" spec="0.4.x" args=["ws","0.4.x"]
+392 verbose parsed url { protocol: null,
+392 verbose parsed url   slashes: null,
+392 verbose parsed url   auth: null,
+392 verbose parsed url   host: null,
+392 verbose parsed url   port: null,
+392 verbose parsed url   hostname: null,
+392 verbose parsed url   hash: null,
+392 verbose parsed url   search: null,
+392 verbose parsed url   query: null,
+392 verbose parsed url   pathname: '0.4.x',
+392 verbose parsed url   path: '0.4.x',
+392 verbose parsed url   href: '0.4.x' }
+393 verbose addNamed [ 'ws', '0.4.x' ]
+394 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+395 silly lockFile 5d9e9ce0-ws-0-4-x ws@0.4.x
+396 verbose lock ws@0.4.x C:\Users\TOSHIBA\AppData\Roaming\npm-cache\5d9e9ce0-ws-0-4-x.lock
+397 silly addNameRange { name: 'ws', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+398 verbose cache add [ 'active-x-obfuscator', '0.0.1' ]
+399 verbose cache add name="active-x-obfuscator" spec="0.0.1" args=["active-x-obfuscator","0.0.1"]
+400 verbose parsed url { protocol: null,
+400 verbose parsed url   slashes: null,
+400 verbose parsed url   auth: null,
+400 verbose parsed url   host: null,
+400 verbose parsed url   port: null,
+400 verbose parsed url   hostname: null,
+400 verbose parsed url   hash: null,
+400 verbose parsed url   search: null,
+400 verbose parsed url   query: null,
+400 verbose parsed url   pathname: '0.0.1',
+400 verbose parsed url   path: '0.0.1',
+400 verbose parsed url   href: '0.0.1' }
+401 verbose addNamed [ 'active-x-obfuscator', '0.0.1' ]
+402 verbose addNamed [ '0.0.1', '0.0.1' ]
+403 silly lockFile 8a542afc-active-x-obfuscator-0-0-1 active-x-obfuscator@0.0.1
+404 verbose lock active-x-obfuscator@0.0.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8a542afc-active-x-obfuscator-0-0-1.lock
+405 verbose cache add [ 'xmlhttprequest', '1.4.2' ]
+406 verbose cache add name="xmlhttprequest" spec="1.4.2" args=["xmlhttprequest","1.4.2"]
+407 verbose parsed url { protocol: null,
+407 verbose parsed url   slashes: null,
+407 verbose parsed url   auth: null,
+407 verbose parsed url   host: null,
+407 verbose parsed url   port: null,
+407 verbose parsed url   hostname: null,
+407 verbose parsed url   hash: null,
+407 verbose parsed url   search: null,
+407 verbose parsed url   query: null,
+407 verbose parsed url   pathname: '1.4.2',
+407 verbose parsed url   path: '1.4.2',
+407 verbose parsed url   href: '1.4.2' }
+408 verbose addNamed [ 'xmlhttprequest', '1.4.2' ]
+409 verbose addNamed [ '1.4.2', '1.4.2' ]
+410 silly lockFile 55d2242a-xmlhttprequest-1-4-2 xmlhttprequest@1.4.2
+411 verbose lock xmlhttprequest@1.4.2 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\55d2242a-xmlhttprequest-1-4-2.lock
+412 verbose url raw uglify-js/1.2.5
+413 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js/1.2.5' ]
+414 verbose url resolved https://registry.npmjs.org/uglify-js/1.2.5
+415 info trying registry request attempt 1 at 21:50:21
+416 verbose etag "2K8UNP8YXXKFXCAFLL6OJNJGH"
+417 http GET https://registry.npmjs.org/uglify-js/1.2.5
+418 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+419 verbose url raw active-x-obfuscator/0.0.1
+420 verbose url resolving [ 'https://registry.npmjs.org/', './active-x-obfuscator/0.0.1' ]
+421 verbose url resolved https://registry.npmjs.org/active-x-obfuscator/0.0.1
+422 info trying registry request attempt 1 at 21:50:21
+423 verbose etag "3F3J32G61UHF5WEFZXNHE1FPG"
+424 http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+425 verbose url raw xmlhttprequest/1.4.2
+426 verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest/1.4.2' ]
+427 verbose url resolved https://registry.npmjs.org/xmlhttprequest/1.4.2
+428 info trying registry request attempt 1 at 21:50:21
+429 verbose etag "9ZTIOSDMIAWI40NBGEILHPN4"
+430 http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
+431 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+432 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+433 verbose url raw ws
+434 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+435 verbose url resolved https://registry.npmjs.org/ws
+436 info trying registry request attempt 1 at 21:50:21
+437 verbose etag "5BX2NEBI9QXZ9US8ZP834FMWD"
+438 http GET https://registry.npmjs.org/ws
+439 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+440 info trying registry request attempt 2 at 21:50:31
+441 verbose etag "2K8UNP8YXXKFXCAFLL6OJNJGH"
+442 http GET https://registry.npmjs.org/uglify-js/1.2.5
+443 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+444 info trying registry request attempt 2 at 21:50:31
+445 verbose etag "3F3J32G61UHF5WEFZXNHE1FPG"
+446 http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+447 info trying registry request attempt 2 at 21:50:31
+448 verbose etag "9ZTIOSDMIAWI40NBGEILHPN4"
+449 http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
+450 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+451 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+452 info trying registry request attempt 2 at 21:50:31
+453 verbose etag "5BX2NEBI9QXZ9US8ZP834FMWD"
+454 http GET https://registry.npmjs.org/ws
+455 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+456 info trying registry request attempt 3 at 21:51:31
+457 verbose etag "2K8UNP8YXXKFXCAFLL6OJNJGH"
+458 http GET https://registry.npmjs.org/uglify-js/1.2.5
+459 silly registry.get cb [ 304, undefined ]
+460 verbose etag uglify-js/1.2.5 from cache
+461 info trying registry request attempt 3 at 21:51:31
+462 verbose etag "3F3J32G61UHF5WEFZXNHE1FPG"
+463 http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+464 info trying registry request attempt 3 at 21:51:31
+465 verbose etag "9ZTIOSDMIAWI40NBGEILHPN4"
+466 http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
+467 silly registry.get cb [ 304, undefined ]
+468 verbose etag active-x-obfuscator/0.0.1 from cache
+469 silly registry.get cb [ 304, undefined ]
+470 verbose etag xmlhttprequest/1.4.2 from cache
+471 info trying registry request attempt 3 at 21:51:31
+472 verbose etag "5BX2NEBI9QXZ9US8ZP834FMWD"
+473 http GET https://registry.npmjs.org/ws
+474 silly registry.get cb [ 304, undefined ]
+475 verbose etag ws from cache
+476 silly lockFile 8a542afc-active-x-obfuscator-0-0-1 active-x-obfuscator@0.0.1
+477 silly lockFile 8a542afc-active-x-obfuscator-0-0-1 active-x-obfuscator@0.0.1
+478 silly lockFile 55d2242a-xmlhttprequest-1-4-2 xmlhttprequest@1.4.2
+479 silly lockFile 55d2242a-xmlhttprequest-1-4-2 xmlhttprequest@1.4.2
+480 silly addNameRange number 2 { name: 'ws', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+481 silly addNameRange versions [ 'ws',
+481 silly addNameRange   [ '0.2.6',
+481 silly addNameRange     '0.2.8',
+481 silly addNameRange     '0.2.9',
+481 silly addNameRange     '0.3.0',
+481 silly addNameRange     '0.3.1',
+481 silly addNameRange     '0.3.2',
+481 silly addNameRange     '0.3.3',
+481 silly addNameRange     '0.3.4',
+481 silly addNameRange     '0.3.4-2',
+481 silly addNameRange     '0.3.5',
+481 silly addNameRange     '0.3.5-2',
+481 silly addNameRange     '0.3.5-3',
+481 silly addNameRange     '0.3.5-4',
+481 silly addNameRange     '0.3.6',
+481 silly addNameRange     '0.3.7',
+481 silly addNameRange     '0.3.8',
+481 silly addNameRange     '0.3.9',
+481 silly addNameRange     '0.4.0',
+481 silly addNameRange     '0.4.1',
+481 silly addNameRange     '0.4.2',
+481 silly addNameRange     '0.4.3',
+481 silly addNameRange     '0.4.5',
+481 silly addNameRange     '0.4.6',
+481 silly addNameRange     '0.4.7',
+481 silly addNameRange     '0.4.8',
+481 silly addNameRange     '0.4.9',
+481 silly addNameRange     '0.4.10',
+481 silly addNameRange     '0.4.11',
+481 silly addNameRange     '0.4.12',
+481 silly addNameRange     '0.4.13',
+481 silly addNameRange     '0.4.14',
+481 silly addNameRange     '0.4.15',
+481 silly addNameRange     '0.4.16',
+481 silly addNameRange     '0.4.17',
+481 silly addNameRange     '0.4.18',
+481 silly addNameRange     '0.4.19',
+481 silly addNameRange     '0.4.20',
+481 silly addNameRange     '0.4.21',
+481 silly addNameRange     '0.4.22',
+481 silly addNameRange     '0.4.23',
+481 silly addNameRange     '0.4.24',
+481 silly addNameRange     '0.4.25',
+481 silly addNameRange     '0.4.27',
+481 silly addNameRange     '0.4.28',
+481 silly addNameRange     '0.4.29',
+481 silly addNameRange     '0.4.30',
+481 silly addNameRange     '0.4.31' ] ]
+482 verbose addNamed [ 'ws', '0.4.31' ]
+483 verbose addNamed [ '0.4.31', '0.4.31' ]
+484 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+485 verbose lock ws@0.4.31 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\53e67403-ws-0-4-31.lock
+486 silly lockFile 7bec4d6c-uglify-js-1-2-5 uglify-js@1.2.5
+487 silly lockFile 7bec4d6c-uglify-js-1-2-5 uglify-js@1.2.5
+488 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+489 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+490 silly lockFile 5d9e9ce0-ws-0-4-x ws@0.4.x
+491 silly lockFile 5d9e9ce0-ws-0-4-x ws@0.4.x
+492 verbose url raw tinycolor/latest
+493 verbose url resolving [ 'https://registry.npmjs.org/', './tinycolor/latest' ]
+494 verbose url resolved https://registry.npmjs.org/tinycolor/latest
+495 info trying registry request attempt 1 at 21:51:31
+496 verbose etag "RU4NXXQKMP255BQGXCIO4AQP"
+497 http GET https://registry.npmjs.org/tinycolor/latest
+498 verbose url raw nan/latest
+499 verbose url resolving [ 'https://registry.npmjs.org/', './nan/latest' ]
+500 verbose url resolved https://registry.npmjs.org/nan/latest
+501 info trying registry request attempt 1 at 21:51:31
+502 verbose etag "EQSH8MT3XJK47J512Q3NI9IED"
+503 http GET https://registry.npmjs.org/nan/latest
+504 verbose url raw commander/latest
+505 verbose url resolving [ 'https://registry.npmjs.org/', './commander/latest' ]
+506 verbose url resolved https://registry.npmjs.org/commander/latest
+507 info trying registry request attempt 1 at 21:51:31
+508 verbose etag "5JDGLZMUKPLTWDRYCATMTC97A"
+509 http GET https://registry.npmjs.org/commander/latest
+510 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+511 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+512 verbose url raw options/latest
+513 verbose url resolving [ 'https://registry.npmjs.org/', './options/latest' ]
+514 verbose url resolved https://registry.npmjs.org/options/latest
+515 info trying registry request attempt 1 at 21:51:31
+516 verbose etag "P8V19HWW37RD23Z3PPOWT6N6"
+517 http GET https://registry.npmjs.org/options/latest
+518 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+519 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+520 info trying registry request attempt 2 at 21:51:41
+521 verbose etag "RU4NXXQKMP255BQGXCIO4AQP"
+522 http GET https://registry.npmjs.org/tinycolor/latest
+523 info trying registry request attempt 2 at 21:51:41
+524 verbose etag "EQSH8MT3XJK47J512Q3NI9IED"
+525 http GET https://registry.npmjs.org/nan/latest
+526 info trying registry request attempt 2 at 21:51:41
+527 verbose etag "5JDGLZMUKPLTWDRYCATMTC97A"
+528 http GET https://registry.npmjs.org/commander/latest
+529 info trying registry request attempt 2 at 21:51:41
+530 verbose etag "P8V19HWW37RD23Z3PPOWT6N6"
+531 http GET https://registry.npmjs.org/options/latest
+532 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+533 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+534 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+535 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+536 info trying registry request attempt 3 at 21:52:41
+537 verbose etag "RU4NXXQKMP255BQGXCIO4AQP"
+538 http GET https://registry.npmjs.org/tinycolor/latest
+539 info trying registry request attempt 3 at 21:52:41
+540 verbose etag "EQSH8MT3XJK47J512Q3NI9IED"
+541 http GET https://registry.npmjs.org/nan/latest
+542 info trying registry request attempt 3 at 21:52:41
+543 verbose etag "5JDGLZMUKPLTWDRYCATMTC97A"
+544 http GET https://registry.npmjs.org/commander/latest
+545 info trying registry request attempt 3 at 21:52:41
+546 verbose etag "P8V19HWW37RD23Z3PPOWT6N6"
+547 http GET https://registry.npmjs.org/options/latest
+548 silly registry.get cb [ 304, undefined ]
+549 verbose etag tinycolor/latest from cache
+550 silly registry.get cb [ 304, undefined ]
+551 verbose etag nan/latest from cache
+552 silly registry.get cb [ 304, undefined ]
+553 verbose etag commander/latest from cache
+554 silly registry.get cb [ 304, undefined ]
+555 verbose etag options/latest from cache
+556 verbose cache add [ 'options', '>=0.0.5' ]
+557 verbose cache add name="options" spec=">=0.0.5" args=["options",">=0.0.5"]
+558 verbose parsed url { protocol: null,
+558 verbose parsed url   slashes: null,
+558 verbose parsed url   auth: null,
+558 verbose parsed url   host: null,
+558 verbose parsed url   port: null,
+558 verbose parsed url   hostname: null,
+558 verbose parsed url   hash: null,
+558 verbose parsed url   search: null,
+558 verbose parsed url   query: null,
+558 verbose parsed url   pathname: '%3E=0.0.5',
+558 verbose parsed url   path: '%3E=0.0.5',
+558 verbose parsed url   href: '%3E=0.0.5' }
+559 verbose addNamed [ 'options', '>=0.0.5' ]
+560 verbose addNamed [ null, '>=0.0.5' ]
+561 silly lockFile 073a6bb3-options-0-0-5 options@>=0.0.5
+562 verbose lock options@>=0.0.5 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\073a6bb3-options-0-0-5.lock
+563 verbose cache add [ 'tinycolor', '0.x' ]
+564 verbose cache add name="tinycolor" spec="0.x" args=["tinycolor","0.x"]
+565 verbose parsed url { protocol: null,
+565 verbose parsed url   slashes: null,
+565 verbose parsed url   auth: null,
+565 verbose parsed url   host: null,
+565 verbose parsed url   port: null,
+565 verbose parsed url   hostname: null,
+565 verbose parsed url   hash: null,
+565 verbose parsed url   search: null,
+565 verbose parsed url   query: null,
+565 verbose parsed url   pathname: '0.x',
+565 verbose parsed url   path: '0.x',
+565 verbose parsed url   href: '0.x' }
+566 verbose addNamed [ 'tinycolor', '0.x' ]
+567 verbose addNamed [ null, '>=0.0.0-0 <1.0.0-0' ]
+568 silly lockFile 8f23180d-tinycolor-0-x tinycolor@0.x
+569 verbose lock tinycolor@0.x C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8f23180d-tinycolor-0-x.lock
+570 verbose cache add [ 'commander', '~0.6.1' ]
+571 verbose cache add name="commander" spec="~0.6.1" args=["commander","~0.6.1"]
+572 verbose parsed url { protocol: null,
+572 verbose parsed url   slashes: null,
+572 verbose parsed url   auth: null,
+572 verbose parsed url   host: null,
+572 verbose parsed url   port: null,
+572 verbose parsed url   hostname: null,
+572 verbose parsed url   hash: null,
+572 verbose parsed url   search: null,
+572 verbose parsed url   query: null,
+572 verbose parsed url   pathname: '~0.6.1',
+572 verbose parsed url   path: '~0.6.1',
+572 verbose parsed url   href: '~0.6.1' }
+573 verbose addNamed [ 'commander', '~0.6.1' ]
+574 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+575 silly lockFile 5c53196d-commander-0-6-1 commander@~0.6.1
+576 verbose lock commander@~0.6.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\5c53196d-commander-0-6-1.lock
+577 silly addNameRange { name: 'options', range: '>=0.0.5', hasData: false }
+578 silly addNameRange { name: 'tinycolor',
+578 silly addNameRange   range: '>=0.0.0-0 <1.0.0-0',
+578 silly addNameRange   hasData: false }
+579 silly addNameRange { name: 'commander',
+579 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+579 silly addNameRange   hasData: false }
+580 verbose cache add [ 'nan', '~0.3.0' ]
+581 verbose cache add name="nan" spec="~0.3.0" args=["nan","~0.3.0"]
+582 verbose parsed url { protocol: null,
+582 verbose parsed url   slashes: null,
+582 verbose parsed url   auth: null,
+582 verbose parsed url   host: null,
+582 verbose parsed url   port: null,
+582 verbose parsed url   hostname: null,
+582 verbose parsed url   hash: null,
+582 verbose parsed url   search: null,
+582 verbose parsed url   query: null,
+582 verbose parsed url   pathname: '~0.3.0',
+582 verbose parsed url   path: '~0.3.0',
+582 verbose parsed url   href: '~0.3.0' }
+583 verbose addNamed [ 'nan', '~0.3.0' ]
+584 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+585 silly lockFile 7bcce2a2-nan-0-3-0 nan@~0.3.0
+586 verbose lock nan@~0.3.0 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\7bcce2a2-nan-0-3-0.lock
+587 verbose url raw tinycolor
+588 verbose url resolving [ 'https://registry.npmjs.org/', './tinycolor' ]
+589 verbose url resolved https://registry.npmjs.org/tinycolor
+590 info trying registry request attempt 1 at 21:52:41
+591 verbose etag "RU4NXXQKMP255BQGXCIO4AQP"
+592 http GET https://registry.npmjs.org/tinycolor
+593 verbose url raw options
+594 verbose url resolving [ 'https://registry.npmjs.org/', './options' ]
+595 verbose url resolved https://registry.npmjs.org/options
+596 info trying registry request attempt 1 at 21:52:41
+597 verbose etag "C2OOWAS96URNGSPLY02R34KIE"
+598 http GET https://registry.npmjs.org/options
+599 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+600 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+601 silly addNameRange { name: 'nan', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+602 verbose url raw commander
+603 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+604 verbose url resolved https://registry.npmjs.org/commander
+605 info trying registry request attempt 1 at 21:52:42
+606 verbose etag "C3RMA5XCBCL4VFWK3C42YN0F"
+607 http GET https://registry.npmjs.org/commander
+608 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+609 verbose url raw nan
+610 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+611 verbose url resolved https://registry.npmjs.org/nan
+612 info trying registry request attempt 1 at 21:52:42
+613 verbose etag "1SFU37RRJE0HFKNQMX5RY4DX"
+614 http GET https://registry.npmjs.org/nan
+615 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+616 info trying registry request attempt 2 at 21:52:52
+617 verbose etag "RU4NXXQKMP255BQGXCIO4AQP"
+618 http GET https://registry.npmjs.org/tinycolor
+619 info trying registry request attempt 2 at 21:52:52
+620 verbose etag "C2OOWAS96URNGSPLY02R34KIE"
+621 http GET https://registry.npmjs.org/options
+622 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+623 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+624 info trying registry request attempt 2 at 21:52:52
+625 verbose etag "C3RMA5XCBCL4VFWK3C42YN0F"
+626 http GET https://registry.npmjs.org/commander
+627 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+628 info trying registry request attempt 2 at 21:52:52
+629 verbose etag "1SFU37RRJE0HFKNQMX5RY4DX"
+630 http GET https://registry.npmjs.org/nan
+631 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+632 info trying registry request attempt 3 at 21:53:52
+633 verbose etag "RU4NXXQKMP255BQGXCIO4AQP"
+634 http GET https://registry.npmjs.org/tinycolor
+635 info trying registry request attempt 3 at 21:53:52
+636 verbose etag "C2OOWAS96URNGSPLY02R34KIE"
+637 http GET https://registry.npmjs.org/options
+638 silly registry.get cb [ 304, undefined ]
+639 verbose etag tinycolor from cache
+640 silly registry.get cb [ 304, undefined ]
+641 verbose etag options from cache
+642 silly addNameRange number 2 { name: 'tinycolor', range: '>=0.0.0-0 <1.0.0-0', hasData: true }
+643 silly addNameRange versions [ 'tinycolor', [ '0.0.1' ] ]
+644 verbose addNamed [ 'tinycolor', '0.0.1' ]
+645 verbose addNamed [ '0.0.1', '0.0.1' ]
+646 silly lockFile 8ace0652-tinycolor-0-0-1 tinycolor@0.0.1
+647 verbose lock tinycolor@0.0.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8ace0652-tinycolor-0-0-1.lock
+648 silly addNameRange number 2 { name: 'options', range: '>=0.0.5', hasData: true }
+649 silly addNameRange versions [ 'options', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5' ] ]
+650 verbose addNamed [ 'options', '0.0.5' ]
+651 verbose addNamed [ '0.0.5', '0.0.5' ]
+652 silly lockFile dc9591a5-options-0-0-5 options@0.0.5
+653 verbose lock options@0.0.5 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\dc9591a5-options-0-0-5.lock
+654 silly lockFile 8ace0652-tinycolor-0-0-1 tinycolor@0.0.1
+655 silly lockFile 8ace0652-tinycolor-0-0-1 tinycolor@0.0.1
+656 silly lockFile 8f23180d-tinycolor-0-x tinycolor@0.x
+657 silly lockFile 8f23180d-tinycolor-0-x tinycolor@0.x
+658 info trying registry request attempt 3 at 21:53:52
+659 verbose etag "C3RMA5XCBCL4VFWK3C42YN0F"
+660 http GET https://registry.npmjs.org/commander
+661 silly registry.get cb [ 304, undefined ]
+662 verbose etag commander from cache
+663 silly lockFile dc9591a5-options-0-0-5 options@0.0.5
+664 silly lockFile dc9591a5-options-0-0-5 options@0.0.5
+665 silly lockFile 073a6bb3-options-0-0-5 options@>=0.0.5
+666 silly lockFile 073a6bb3-options-0-0-5 options@>=0.0.5
+667 info trying registry request attempt 3 at 21:53:52
+668 verbose etag "1SFU37RRJE0HFKNQMX5RY4DX"
+669 http GET https://registry.npmjs.org/nan
+670 silly registry.get cb [ 304, undefined ]
+671 verbose etag nan from cache
+672 silly addNameRange number 2 { name: 'commander', range: '>=0.6.1-0 <0.7.0-0', hasData: true }
+673 silly addNameRange versions [ 'commander',
+673 silly addNameRange   [ '0.0.1',
+673 silly addNameRange     '0.0.3',
+673 silly addNameRange     '0.0.4',
+673 silly addNameRange     '0.0.5',
+673 silly addNameRange     '0.1.0',
+673 silly addNameRange     '0.2.0',
+673 silly addNameRange     '0.2.1',
+673 silly addNameRange     '0.3.0',
+673 silly addNameRange     '0.3.1',
+673 silly addNameRange     '0.3.2',
+673 silly addNameRange     '0.3.3',
+673 silly addNameRange     '0.4.0',
+673 silly addNameRange     '0.4.1',
+673 silly addNameRange     '0.4.2',
+673 silly addNameRange     '0.4.3',
+673 silly addNameRange     '0.5.0',
+673 silly addNameRange     '0.5.1',
+673 silly addNameRange     '0.6.0',
+673 silly addNameRange     '0.6.1',
+673 silly addNameRange     '0.5.2',
+673 silly addNameRange     '1.0.0',
+673 silly addNameRange     '1.0.1',
+673 silly addNameRange     '1.0.2',
+673 silly addNameRange     '1.0.3',
+673 silly addNameRange     '1.0.4',
+673 silly addNameRange     '1.0.5',
+673 silly addNameRange     '1.1.0',
+673 silly addNameRange     '1.1.1',
+673 silly addNameRange     '1.2.0',
+673 silly addNameRange     '1.3.0',
+673 silly addNameRange     '1.3.1',
+673 silly addNameRange     '1.3.2',
+673 silly addNameRange     '2.0.0',
+673 silly addNameRange     '2.1.0',
+673 silly addNameRange     '2.2.0' ] ]
+674 verbose addNamed [ 'commander', '0.6.1' ]
+675 verbose addNamed [ '0.6.1', '0.6.1' ]
+676 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+677 verbose lock commander@0.6.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\fa16a2ce-commander-0-6-1.lock
+678 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+679 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+680 silly lockFile 5c53196d-commander-0-6-1 commander@~0.6.1
+681 silly lockFile 5c53196d-commander-0-6-1 commander@~0.6.1
+682 silly addNameRange number 2 { name: 'nan', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+683 silly addNameRange versions [ 'nan',
+683 silly addNameRange   [ '0.3.0-wip',
+683 silly addNameRange     '0.3.0-wip2',
+683 silly addNameRange     '0.3.0',
+683 silly addNameRange     '0.3.1',
+683 silly addNameRange     '0.3.2',
+683 silly addNameRange     '0.4.0',
+683 silly addNameRange     '0.4.1',
+683 silly addNameRange     '0.4.2',
+683 silly addNameRange     '0.4.3',
+683 silly addNameRange     '0.4.4',
+683 silly addNameRange     '0.5.0',
+683 silly addNameRange     '0.5.1',
+683 silly addNameRange     '0.5.2',
+683 silly addNameRange     '0.6.0',
+683 silly addNameRange     '0.7.0',
+683 silly addNameRange     '0.7.1',
+683 silly addNameRange     '0.8.0' ] ]
+684 verbose addNamed [ 'nan', '0.3.2' ]
+685 verbose addNamed [ '0.3.2', '0.3.2' ]
+686 silly lockFile 98ceedb5-nan-0-3-2 nan@0.3.2
+687 verbose lock nan@0.3.2 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\98ceedb5-nan-0-3-2.lock
+688 silly lockFile 98ceedb5-nan-0-3-2 nan@0.3.2
+689 silly lockFile 98ceedb5-nan-0-3-2 nan@0.3.2
+690 silly lockFile 7bcce2a2-nan-0-3-0 nan@~0.3.0
+691 silly lockFile 7bcce2a2-nan-0-3-0 nan@~0.3.0
+692 info outdated updating [ [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc',
+692 info outdated     'easyrtc',
+692 info outdated     '1.0.9',
+692 info outdated     '1.0.10',
+692 info outdated     '1.0.10',
+692 info outdated     '*' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc',
+692 info outdated     'express',
+692 info outdated     '3.4.8',
+692 info outdated     '4.1.1',
+692 info outdated     '4.1.1',
+692 info outdated     '*' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io',
+692 info outdated     'redis',
+692 info outdated     '0.7.3',
+692 info outdated     '0.7.3',
+692 info outdated     '0.10.1',
+692 info outdated     '0.7.3' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io',
+692 info outdated     'policyfile',
+692 info outdated     '0.0.4',
+692 info outdated     '0.0.4',
+692 info outdated     '0.0.5',
+692 info outdated     '0.0.4' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client',
+692 info outdated     'active-x-obfuscator',
+692 info outdated     '0.0.1',
+692 info outdated     '0.0.1',
+692 info outdated     '0.0.2',
+692 info outdated     '0.0.1' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client',
+692 info outdated     'xmlhttprequest',
+692 info outdated     '1.4.2',
+692 info outdated     '1.4.2',
+692 info outdated     '1.6.0',
+692 info outdated     '1.4.2' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client',
+692 info outdated     'uglify-js',
+692 info outdated     '1.2.5',
+692 info outdated     '1.2.5',
+692 info outdated     '2.4.13',
+692 info outdated     '1.2.5' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client\\node_modules\\ws',
+692 info outdated     'commander',
+692 info outdated     '0.6.1',
+692 info outdated     '0.6.1',
+692 info outdated     '2.1.0',
+692 info outdated     '~0.6.1' ],
+692 info outdated   [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client\\node_modules\\ws',
+692 info outdated     'nan',
+692 info outdated     '0.3.2',
+692 info outdated     '0.3.2',
+692 info outdated     '0.8.0',
+692 info outdated     '~0.3.0' ] ]
+693 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc', [ 'easyrtc@1.0.10' ] ]
+694 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc', [ 'express@4.1.1' ] ]
+695 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io',
+695 verbose install   [ 'redis@0.7.3' ] ]
+696 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io',
+696 verbose install   [ 'policyfile@0.0.4' ] ]
+697 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client',
+697 verbose install   [ 'active-x-obfuscator@0.0.1' ] ]
+698 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client',
+698 verbose install   [ 'xmlhttprequest@1.4.2' ] ]
+699 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client',
+699 verbose install   [ 'uglify-js@1.2.5' ] ]
+700 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client\\node_modules\\ws',
+700 verbose install   [ 'commander@0.6.1' ] ]
+701 verbose install where,what [ 'C:\\Users\\TOSHIBA\\nodes\\easyrtc\\node_modules\\socket.io\\node_modules\\socket.io-client\\node_modules\\ws',
+701 verbose install   [ 'nan@0.3.2' ] ]
+702 verbose readDependencies using package.json deps
+703 verbose cache add [ 'express@4.1.1', null ]
+704 verbose cache add name=undefined spec="express@4.1.1" args=["express@4.1.1",null]
+705 verbose parsed url { protocol: null,
+705 verbose parsed url   slashes: null,
+705 verbose parsed url   auth: null,
+705 verbose parsed url   host: null,
+705 verbose parsed url   port: null,
+705 verbose parsed url   hostname: null,
+705 verbose parsed url   hash: null,
+705 verbose parsed url   search: null,
+705 verbose parsed url   query: null,
+705 verbose parsed url   pathname: 'express@4.1.1',
+705 verbose parsed url   path: 'express@4.1.1',
+705 verbose parsed url   href: 'express@4.1.1' }
+706 verbose cache add name="express" spec="4.1.1" args=["express","4.1.1"]
+707 verbose parsed url { protocol: null,
+707 verbose parsed url   slashes: null,
+707 verbose parsed url   auth: null,
+707 verbose parsed url   host: null,
+707 verbose parsed url   port: null,
+707 verbose parsed url   hostname: null,
+707 verbose parsed url   hash: null,
+707 verbose parsed url   search: null,
+707 verbose parsed url   query: null,
+707 verbose parsed url   pathname: '4.1.1',
+707 verbose parsed url   path: '4.1.1',
+707 verbose parsed url   href: '4.1.1' }
+708 verbose addNamed [ 'express', '4.1.1' ]
+709 verbose addNamed [ '4.1.1', '4.1.1' ]
+710 silly lockFile e8de92d7-express-4-1-1 express@4.1.1
+711 verbose lock express@4.1.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\e8de92d7-express-4-1-1.lock
+712 verbose readDependencies using package.json deps
+713 verbose cache add [ 'easyrtc@1.0.10', null ]
+714 verbose cache add name=undefined spec="easyrtc@1.0.10" args=["easyrtc@1.0.10",null]
+715 verbose parsed url { protocol: null,
+715 verbose parsed url   slashes: null,
+715 verbose parsed url   auth: null,
+715 verbose parsed url   host: null,
+715 verbose parsed url   port: null,
+715 verbose parsed url   hostname: null,
+715 verbose parsed url   hash: null,
+715 verbose parsed url   search: null,
+715 verbose parsed url   query: null,
+715 verbose parsed url   pathname: 'easyrtc@1.0.10',
+715 verbose parsed url   path: 'easyrtc@1.0.10',
+715 verbose parsed url   href: 'easyrtc@1.0.10' }
+716 verbose cache add name="easyrtc" spec="1.0.10" args=["easyrtc","1.0.10"]
+717 verbose parsed url { protocol: null,
+717 verbose parsed url   slashes: null,
+717 verbose parsed url   auth: null,
+717 verbose parsed url   host: null,
+717 verbose parsed url   port: null,
+717 verbose parsed url   hostname: null,
+717 verbose parsed url   hash: null,
+717 verbose parsed url   search: null,
+717 verbose parsed url   query: null,
+717 verbose parsed url   pathname: '1.0.10',
+717 verbose parsed url   path: '1.0.10',
+717 verbose parsed url   href: '1.0.10' }
+718 verbose addNamed [ 'easyrtc', '1.0.10' ]
+719 verbose addNamed [ '1.0.10', '1.0.10' ]
+720 silly lockFile 5c9e5967-easyrtc-1-0-10 easyrtc@1.0.10
+721 verbose lock easyrtc@1.0.10 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\5c9e5967-easyrtc-1-0-10.lock
+722 verbose readDependencies using package.json deps
+723 verbose cache add [ 'redis@0.7.3', null ]
+724 verbose cache add name=undefined spec="redis@0.7.3" args=["redis@0.7.3",null]
+725 verbose parsed url { protocol: null,
+725 verbose parsed url   slashes: null,
+725 verbose parsed url   auth: null,
+725 verbose parsed url   host: null,
+725 verbose parsed url   port: null,
+725 verbose parsed url   hostname: null,
+725 verbose parsed url   hash: null,
+725 verbose parsed url   search: null,
+725 verbose parsed url   query: null,
+725 verbose parsed url   pathname: 'redis@0.7.3',
+725 verbose parsed url   path: 'redis@0.7.3',
+725 verbose parsed url   href: 'redis@0.7.3' }
+726 verbose cache add name="redis" spec="0.7.3" args=["redis","0.7.3"]
+727 verbose parsed url { protocol: null,
+727 verbose parsed url   slashes: null,
+727 verbose parsed url   auth: null,
+727 verbose parsed url   host: null,
+727 verbose parsed url   port: null,
+727 verbose parsed url   hostname: null,
+727 verbose parsed url   hash: null,
+727 verbose parsed url   search: null,
+727 verbose parsed url   query: null,
+727 verbose parsed url   pathname: '0.7.3',
+727 verbose parsed url   path: '0.7.3',
+727 verbose parsed url   href: '0.7.3' }
+728 verbose addNamed [ 'redis', '0.7.3' ]
+729 verbose addNamed [ '0.7.3', '0.7.3' ]
+730 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+731 verbose lock redis@0.7.3 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\10399cfa-redis-0-7-3.lock
+732 verbose readDependencies using package.json deps
+733 verbose cache add [ 'active-x-obfuscator@0.0.1', null ]
+734 verbose cache add name=undefined spec="active-x-obfuscator@0.0.1" args=["active-x-obfuscator@0.0.1",null]
+735 verbose parsed url { protocol: null,
+735 verbose parsed url   slashes: null,
+735 verbose parsed url   auth: null,
+735 verbose parsed url   host: null,
+735 verbose parsed url   port: null,
+735 verbose parsed url   hostname: null,
+735 verbose parsed url   hash: null,
+735 verbose parsed url   search: null,
+735 verbose parsed url   query: null,
+735 verbose parsed url   pathname: 'active-x-obfuscator@0.0.1',
+735 verbose parsed url   path: 'active-x-obfuscator@0.0.1',
+735 verbose parsed url   href: 'active-x-obfuscator@0.0.1' }
+736 verbose cache add name="active-x-obfuscator" spec="0.0.1" args=["active-x-obfuscator","0.0.1"]
+737 verbose parsed url { protocol: null,
+737 verbose parsed url   slashes: null,
+737 verbose parsed url   auth: null,
+737 verbose parsed url   host: null,
+737 verbose parsed url   port: null,
+737 verbose parsed url   hostname: null,
+737 verbose parsed url   hash: null,
+737 verbose parsed url   search: null,
+737 verbose parsed url   query: null,
+737 verbose parsed url   pathname: '0.0.1',
+737 verbose parsed url   path: '0.0.1',
+737 verbose parsed url   href: '0.0.1' }
+738 verbose addNamed [ 'active-x-obfuscator', '0.0.1' ]
+739 verbose addNamed [ '0.0.1', '0.0.1' ]
+740 silly lockFile 8a542afc-active-x-obfuscator-0-0-1 active-x-obfuscator@0.0.1
+741 verbose lock active-x-obfuscator@0.0.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8a542afc-active-x-obfuscator-0-0-1.lock
+742 verbose readDependencies using package.json deps
+743 verbose cache add [ 'policyfile@0.0.4', null ]
+744 verbose cache add name=undefined spec="policyfile@0.0.4" args=["policyfile@0.0.4",null]
+745 verbose parsed url { protocol: null,
+745 verbose parsed url   slashes: null,
+745 verbose parsed url   auth: null,
+745 verbose parsed url   host: null,
+745 verbose parsed url   port: null,
+745 verbose parsed url   hostname: null,
+745 verbose parsed url   hash: null,
+745 verbose parsed url   search: null,
+745 verbose parsed url   query: null,
+745 verbose parsed url   pathname: 'policyfile@0.0.4',
+745 verbose parsed url   path: 'policyfile@0.0.4',
+745 verbose parsed url   href: 'policyfile@0.0.4' }
+746 verbose cache add name="policyfile" spec="0.0.4" args=["policyfile","0.0.4"]
+747 verbose parsed url { protocol: null,
+747 verbose parsed url   slashes: null,
+747 verbose parsed url   auth: null,
+747 verbose parsed url   host: null,
+747 verbose parsed url   port: null,
+747 verbose parsed url   hostname: null,
+747 verbose parsed url   hash: null,
+747 verbose parsed url   search: null,
+747 verbose parsed url   query: null,
+747 verbose parsed url   pathname: '0.0.4',
+747 verbose parsed url   path: '0.0.4',
+747 verbose parsed url   href: '0.0.4' }
+748 verbose addNamed [ 'policyfile', '0.0.4' ]
+749 verbose addNamed [ '0.0.4', '0.0.4' ]
+750 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+751 verbose lock policyfile@0.0.4 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\8b99131a-policyfile-0-0-4.lock
+752 verbose readDependencies using package.json deps
+753 verbose cache add [ 'xmlhttprequest@1.4.2', null ]
+754 verbose cache add name=undefined spec="xmlhttprequest@1.4.2" args=["xmlhttprequest@1.4.2",null]
+755 verbose parsed url { protocol: null,
+755 verbose parsed url   slashes: null,
+755 verbose parsed url   auth: null,
+755 verbose parsed url   host: null,
+755 verbose parsed url   port: null,
+755 verbose parsed url   hostname: null,
+755 verbose parsed url   hash: null,
+755 verbose parsed url   search: null,
+755 verbose parsed url   query: null,
+755 verbose parsed url   pathname: 'xmlhttprequest@1.4.2',
+755 verbose parsed url   path: 'xmlhttprequest@1.4.2',
+755 verbose parsed url   href: 'xmlhttprequest@1.4.2' }
+756 verbose cache add name="xmlhttprequest" spec="1.4.2" args=["xmlhttprequest","1.4.2"]
+757 verbose parsed url { protocol: null,
+757 verbose parsed url   slashes: null,
+757 verbose parsed url   auth: null,
+757 verbose parsed url   host: null,
+757 verbose parsed url   port: null,
+757 verbose parsed url   hostname: null,
+757 verbose parsed url   hash: null,
+757 verbose parsed url   search: null,
+757 verbose parsed url   query: null,
+757 verbose parsed url   pathname: '1.4.2',
+757 verbose parsed url   path: '1.4.2',
+757 verbose parsed url   href: '1.4.2' }
+758 verbose addNamed [ 'xmlhttprequest', '1.4.2' ]
+759 verbose addNamed [ '1.4.2', '1.4.2' ]
+760 silly lockFile 55d2242a-xmlhttprequest-1-4-2 xmlhttprequest@1.4.2
+761 verbose lock xmlhttprequest@1.4.2 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\55d2242a-xmlhttprequest-1-4-2.lock
+762 verbose readDependencies using package.json deps
+763 verbose cache add [ 'uglify-js@1.2.5', null ]
+764 verbose cache add name=undefined spec="uglify-js@1.2.5" args=["uglify-js@1.2.5",null]
+765 verbose parsed url { protocol: null,
+765 verbose parsed url   slashes: null,
+765 verbose parsed url   auth: null,
+765 verbose parsed url   host: null,
+765 verbose parsed url   port: null,
+765 verbose parsed url   hostname: null,
+765 verbose parsed url   hash: null,
+765 verbose parsed url   search: null,
+765 verbose parsed url   query: null,
+765 verbose parsed url   pathname: 'uglify-js@1.2.5',
+765 verbose parsed url   path: 'uglify-js@1.2.5',
+765 verbose parsed url   href: 'uglify-js@1.2.5' }
+766 verbose cache add name="uglify-js" spec="1.2.5" args=["uglify-js","1.2.5"]
+767 verbose parsed url { protocol: null,
+767 verbose parsed url   slashes: null,
+767 verbose parsed url   auth: null,
+767 verbose parsed url   host: null,
+767 verbose parsed url   port: null,
+767 verbose parsed url   hostname: null,
+767 verbose parsed url   hash: null,
+767 verbose parsed url   search: null,
+767 verbose parsed url   query: null,
+767 verbose parsed url   pathname: '1.2.5',
+767 verbose parsed url   path: '1.2.5',
+767 verbose parsed url   href: '1.2.5' }
+768 verbose addNamed [ 'uglify-js', '1.2.5' ]
+769 verbose addNamed [ '1.2.5', '1.2.5' ]
+770 silly lockFile 7bec4d6c-uglify-js-1-2-5 uglify-js@1.2.5
+771 verbose lock uglify-js@1.2.5 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\7bec4d6c-uglify-js-1-2-5.lock
+772 verbose readDependencies using package.json deps
+773 verbose cache add [ 'commander@0.6.1', null ]
+774 verbose cache add name=undefined spec="commander@0.6.1" args=["commander@0.6.1",null]
+775 verbose parsed url { protocol: null,
+775 verbose parsed url   slashes: null,
+775 verbose parsed url   auth: null,
+775 verbose parsed url   host: null,
+775 verbose parsed url   port: null,
+775 verbose parsed url   hostname: null,
+775 verbose parsed url   hash: null,
+775 verbose parsed url   search: null,
+775 verbose parsed url   query: null,
+775 verbose parsed url   pathname: 'commander@0.6.1',
+775 verbose parsed url   path: 'commander@0.6.1',
+775 verbose parsed url   href: 'commander@0.6.1' }
+776 verbose cache add name="commander" spec="0.6.1" args=["commander","0.6.1"]
+777 verbose parsed url { protocol: null,
+777 verbose parsed url   slashes: null,
+777 verbose parsed url   auth: null,
+777 verbose parsed url   host: null,
+777 verbose parsed url   port: null,
+777 verbose parsed url   hostname: null,
+777 verbose parsed url   hash: null,
+777 verbose parsed url   search: null,
+777 verbose parsed url   query: null,
+777 verbose parsed url   pathname: '0.6.1',
+777 verbose parsed url   path: '0.6.1',
+777 verbose parsed url   href: '0.6.1' }
+778 verbose addNamed [ 'commander', '0.6.1' ]
+779 verbose addNamed [ '0.6.1', '0.6.1' ]
+780 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+781 verbose lock commander@0.6.1 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\fa16a2ce-commander-0-6-1.lock
+782 verbose readDependencies using package.json deps
+783 verbose cache add [ 'nan@0.3.2', null ]
+784 verbose cache add name=undefined spec="nan@0.3.2" args=["nan@0.3.2",null]
+785 verbose parsed url { protocol: null,
+785 verbose parsed url   slashes: null,
+785 verbose parsed url   auth: null,
+785 verbose parsed url   host: null,
+785 verbose parsed url   port: null,
+785 verbose parsed url   hostname: null,
+785 verbose parsed url   hash: null,
+785 verbose parsed url   search: null,
+785 verbose parsed url   query: null,
+785 verbose parsed url   pathname: 'nan@0.3.2',
+785 verbose parsed url   path: 'nan@0.3.2',
+785 verbose parsed url   href: 'nan@0.3.2' }
+786 verbose cache add name="nan" spec="0.3.2" args=["nan","0.3.2"]
+787 verbose parsed url { protocol: null,
+787 verbose parsed url   slashes: null,
+787 verbose parsed url   auth: null,
+787 verbose parsed url   host: null,
+787 verbose parsed url   port: null,
+787 verbose parsed url   hostname: null,
+787 verbose parsed url   hash: null,
+787 verbose parsed url   search: null,
+787 verbose parsed url   query: null,
+787 verbose parsed url   pathname: '0.3.2',
+787 verbose parsed url   path: '0.3.2',
+787 verbose parsed url   href: '0.3.2' }
+788 verbose addNamed [ 'nan', '0.3.2' ]
+789 verbose addNamed [ '0.3.2', '0.3.2' ]
+790 silly lockFile 98ceedb5-nan-0-3-2 nan@0.3.2
+791 verbose lock nan@0.3.2 C:\Users\TOSHIBA\AppData\Roaming\npm-cache\98ceedb5-nan-0-3-2.lock
+792 verbose url raw express/4.1.1
+793 verbose url resolving [ 'https://registry.npmjs.org/', './express/4.1.1' ]
+794 verbose url resolved https://registry.npmjs.org/express/4.1.1
+795 info trying registry request attempt 1 at 21:53:52
+796 http GET https://registry.npmjs.org/express/4.1.1
+797 verbose url raw easyrtc/1.0.10
+798 verbose url resolving [ 'https://registry.npmjs.org/', './easyrtc/1.0.10' ]
+799 verbose url resolved https://registry.npmjs.org/easyrtc/1.0.10
+800 info trying registry request attempt 1 at 21:53:52
+801 http GET https://registry.npmjs.org/easyrtc/1.0.10
+802 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+803 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+804 verbose url raw policyfile/0.0.4
+805 verbose url resolving [ 'https://registry.npmjs.org/', './policyfile/0.0.4' ]
+806 verbose url resolved https://registry.npmjs.org/policyfile/0.0.4
+807 info trying registry request attempt 1 at 21:53:52
+808 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+809 http GET https://registry.npmjs.org/policyfile/0.0.4
+810 verbose url raw redis/0.7.3
+811 verbose url resolving [ 'https://registry.npmjs.org/', './redis/0.7.3' ]
+812 verbose url resolved https://registry.npmjs.org/redis/0.7.3
+813 info trying registry request attempt 1 at 21:53:52
+814 verbose etag "OXSUAVWAA2MZVYMU2Q11EEOA"
+815 http GET https://registry.npmjs.org/redis/0.7.3
+816 verbose url raw xmlhttprequest/1.4.2
+817 verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest/1.4.2' ]
+818 verbose url resolved https://registry.npmjs.org/xmlhttprequest/1.4.2
+819 info trying registry request attempt 1 at 21:53:52
+820 verbose etag "9ZTIOSDMIAWI40NBGEILHPN4"
+821 http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
+822 verbose url raw commander/0.6.1
+823 verbose url resolving [ 'https://registry.npmjs.org/', './commander/0.6.1' ]
+824 verbose url resolved https://registry.npmjs.org/commander/0.6.1
+825 info trying registry request attempt 1 at 21:53:52
+826 verbose etag "8QLRX4P3IVKUKOZICDWWQETBG"
+827 http GET https://registry.npmjs.org/commander/0.6.1
+828 verbose url raw uglify-js/1.2.5
+829 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js/1.2.5' ]
+830 verbose url resolved https://registry.npmjs.org/uglify-js/1.2.5
+831 info trying registry request attempt 1 at 21:53:52
+832 verbose etag "2K8UNP8YXXKFXCAFLL6OJNJGH"
+833 http GET https://registry.npmjs.org/uglify-js/1.2.5
+834 verbose url raw active-x-obfuscator/0.0.1
+835 verbose url resolving [ 'https://registry.npmjs.org/', './active-x-obfuscator/0.0.1' ]
+836 verbose url resolved https://registry.npmjs.org/active-x-obfuscator/0.0.1
+837 info trying registry request attempt 1 at 21:53:52
+838 verbose etag "3F3J32G61UHF5WEFZXNHE1FPG"
+839 http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+840 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+841 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+842 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+843 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+844 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+845 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+846 verbose url raw nan/0.3.2
+847 verbose url resolving [ 'https://registry.npmjs.org/', './nan/0.3.2' ]
+848 verbose url resolved https://registry.npmjs.org/nan/0.3.2
+849 info trying registry request attempt 1 at 21:53:52
+850 verbose etag "37ANZBW39BZR8XGNNF9P4ZLJI"
+851 http GET https://registry.npmjs.org/nan/0.3.2
+852 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+853 info trying registry request attempt 2 at 21:54:02
+854 http GET https://registry.npmjs.org/express/4.1.1
+855 info trying registry request attempt 2 at 21:54:02
+856 http GET https://registry.npmjs.org/easyrtc/1.0.10
+857 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+858 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+859 info trying registry request attempt 2 at 21:54:02
+860 verbose etag "74R9KEL2HOGZ5WV02QV85Q5K2"
+861 http GET https://registry.npmjs.org/policyfile/0.0.4
+862 info trying registry request attempt 2 at 21:54:02
+863 verbose etag "OXSUAVWAA2MZVYMU2Q11EEOA"
+864 http GET https://registry.npmjs.org/redis/0.7.3
+865 info trying registry request attempt 2 at 21:54:02
+866 verbose etag "9ZTIOSDMIAWI40NBGEILHPN4"
+867 http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
+868 info trying registry request attempt 2 at 21:54:02
+869 verbose etag "8QLRX4P3IVKUKOZICDWWQETBG"
+870 http GET https://registry.npmjs.org/commander/0.6.1
+871 info trying registry request attempt 2 at 21:54:02
+872 verbose etag "2K8UNP8YXXKFXCAFLL6OJNJGH"
+873 http GET https://registry.npmjs.org/uglify-js/1.2.5
+874 info trying registry request attempt 2 at 21:54:02
+875 verbose etag "3F3J32G61UHF5WEFZXNHE1FPG"
+876 http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+877 info trying registry request attempt 2 at 21:54:02
+878 verbose etag "37ANZBW39BZR8XGNNF9P4ZLJI"
+879 http GET https://registry.npmjs.org/nan/0.3.2
+880 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+881 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+882 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+883 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+884 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+885 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+886 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+887 info trying registry request attempt 3 at 21:55:02
+888 http GET https://registry.npmjs.org/express/4.1.1
+889 info trying registry request attempt 3 at 21:55:02
+890 http GET https://registry.npmjs.org/easyrtc/1.0.10
+891 silly lockFile e8de92d7-express-4-1-1 express@4.1.1
+892 silly lockFile e8de92d7-express-4-1-1 express@4.1.1
+893 silly lockFile 5c9e5967-easyrtc-1-0-10 easyrtc@1.0.10
+894 silly lockFile 5c9e5967-easyrtc-1-0-10 easyrtc@1.0.10
+895 error network getaddrinfo ENOTFOUND
+895 error network This is most likely not a problem with npm itself
+895 error network and is related to network connectivity.
+895 error network In most cases you are behind a proxy or have bad network settings.
+895 error network
+895 error network If you are behind a proxy, please make sure that the
+895 error network 'proxy' config is set properly.  See: 'npm help config'
+896 error System Windows_NT 6.1.7600
+897 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+898 error cwd C:\Users\TOSHIBA\nodes\easyrtc
+899 error node -v v0.10.25
+900 error npm -v 1.3.24
+901 error syscall getaddrinfo
+902 error code ENOTFOUND
+903 error errno ENOTFOUND
+904 verbose exit [ 1, true ]
